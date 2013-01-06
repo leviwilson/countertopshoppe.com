@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "leviwilson.github.com"
+title: "Welcome - CountertopShoppe.com"
 ---
 # Countertop Shoppe
 
