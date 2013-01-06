@@ -1,3 +1,7 @@
+---
+layout: default
+title: "leviwilson.github.com"
+---
 # Countertop Shoppe
 
 ## Welcome to the Countertop Shoppe Inc.
