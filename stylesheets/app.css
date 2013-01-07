@@ -34,6 +34,44 @@ body {
   padding:  10px 50px;
 }
 
+.sidebar-box-wrap {
+  float: left;
+  margin-bottom: 15px;
+  margin-top: 14px;
+  width: 280px;
+  padding: 6px 6px 6px 0px;
+  background-color: #DDD5BA;
+  border-right: 1px solid #C7BEA2;
+  border-bottom: 1px solid #C7BEA2;
+  border-top: 1px solid #C7BEA2;
+}
+
+.sidebar-box-title {
+  font-size: 18px;
+  color: white;
+  padding: 9px 0px 0px 20px;
+  margin: 0px 0px 2px 0px;
+  float: left;
+  font-size: 18px;
+  font-family: Georgia;
+  background-image: url(/images/foundation/sidebar-header-bg.jpg);
+  width: 294px;
+  height: 59px;
+  margin-left: -15px;
+  position: relative;
+  clear: both;
+}
+
+.sidebar-box {
+  width: 273px;
+  padding: 0px 15px 8px 15px;
+  float: left;
+  border-right: 1px solid #C7BEA2;
+  border-bottom: 1px solid #C7BEA2;
+  border-top: 1px solid #C7BEA2;
+  background-image: url(/images/foundation/sidebar-bg.jpg);
+}
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */

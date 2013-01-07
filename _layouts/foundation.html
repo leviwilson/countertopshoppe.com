@@ -32,8 +32,6 @@
     <!-- Initialize JS Plugins -->
     <script src="javascripts/app.js"></script>
 
-
-
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -64,8 +62,21 @@
         </div>
 
         <div class="row">
-          <div class="twelve columns">
+          <div class="eight columns">
             {{ content }}
+          </div>
+          <div class="four columns">
+            <div class="sidebar-box-wrap">
+              <div class="sidebar-box">
+                <span class="sidebar-box-title">Contact Us</span>
+                <h4 class="subheader">Address</h4>
+                505 West Jefferson St.<br />
+                Plymouth, IN 46563<br />
+                <h4 class="subheader">Phone / Fax</h4>
+                Phone: (574) 936-1423<br />
+                Fax: (574) 936-9575
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -113,7 +124,7 @@
     <script src="javascripts/jquery.foundation.magellan.js"></script>
 
     -->
-    
+
     <script>
       $(window).load(function(){
         $("#featured").orbit();
