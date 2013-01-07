@@ -2,7 +2,7 @@
 layout: foundation
 title: "Testimonials - CountertopShoppe.com"
 ---
-# Find out what a few of our customers had to say!
+### Find out what a few of our customers had to say!
 
 "It has been a pleasure doing business with the Countertop Shop. My wife and I are very happy with the design, workmanship and knowledge that the whole staff of employees possess.
 

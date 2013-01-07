@@ -28,6 +28,11 @@ body {
 .navigation .nav-bar li { border: none; line-height: 1.5em; }
 .navigation .nav-bar li a { color: #413F36; }
 
+.footer {
+  width: 100%;
+  height: 39px;
+  background-image: url(/images/foundation/footer-top.jpg);
+}
 
 /* -----------------------------------------
    Page Name 1
