@@ -12,7 +12,10 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
+body {
+  background-color: #F4EFD6;
+  background-images: url(/images/foundation/bg.jpg)
+}
 
 
 /* -----------------------------------------
