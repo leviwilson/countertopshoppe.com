@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: foundation
 title: "Testimonials - CountertopShoppe.com"
 ---
 # Find out what a few of our customers had to say!
