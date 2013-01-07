@@ -14,16 +14,19 @@
 ----------------------------------------- */
 body {
   background-color: #F4EFD6;
-  background-image: url(/images/foundation/bg.jpg)
+  background-image: url(/images/foundation/bg.jpg);
+}
+
+.navigation {
+  width: 100%;
+  height: 59px;
+  background-image: url(/images/foundation/nav-bg.jpg);
 }
 
 
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
-
-
-
 
 /* -----------------------------------------
    Page Name 2
