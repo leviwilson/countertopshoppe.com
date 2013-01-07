@@ -29,6 +29,11 @@ body {
 .navigation .nav-bar li { border: none; line-height: 1.5em; }
 .navigation .nav-bar li a { color: #413F36; }
 
+#testimonials div {
+  background: white;
+  padding:  10px 50px;
+}
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
