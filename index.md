@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: foundation
 title: "Welcome - CountertopShoppe.com"
 ---
-# Countertop Shoppe
-
-## Welcome to the Countertop Shoppe Inc.
+### Welcome to the Countertop Shoppe Inc.
 
 Transform your kitchen or bathroom into a spectacular sight with the experts at Countertop Shoppe.
 
