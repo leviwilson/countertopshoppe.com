@@ -23,6 +23,11 @@ body {
   background-image: url(/images/foundation/nav-bg.jpg);
 }
 
+.navigation .nav-bar { background: none; }
+.nav-bar > li:hover { background: none; font-weight: bold; }
+.navigation .nav-bar li { border: none; line-height: 1.5em; }
+.navigation .nav-bar li a { color: #413F36; }
+
 
 /* -----------------------------------------
    Page Name 1
