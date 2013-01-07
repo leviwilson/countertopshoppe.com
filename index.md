@@ -1,6 +1,6 @@
 ---
 layout: foundation
-title: "Welcome - CountertopShoppe.com"
+title: "Welcome"
 ---
 ### Welcome to the Countertop Shoppe Inc.
 
