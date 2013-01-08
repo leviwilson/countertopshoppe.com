@@ -1,0 +1,5 @@
+<ul class="block-grid three-up" data-clearing>
+  <li><img data-caption="" src="/raw/images/1.jpg"></li>
+  <li><img data-caption="" src="/raw/images/2.jpg"></li>
+  <li><img data-caption="" src="/raw/images/3.jpg"></li>
+</ul>
