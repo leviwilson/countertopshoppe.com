@@ -1,5 +1,5 @@
 ---
-layout: foundation
+layout: default
 title: "Welcome"
 ---
 ### Welcome to the Countertop Shoppe Inc.
