@@ -1,133 +1,15 @@
-<!DOCTYPE html>
-
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-  <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+<html>
   <head>
-    <meta charset="utf-8" />
-
-    <!-- Set the viewport width to device width for mobile -->
-    <meta name="viewport" content="width=device-width" />
-
-    <title>{{ page.title }} - CountertopShoppe.com</title>
-
-    <!-- Included CSS Files (Uncompressed) -->
-    <!--
-    <link rel="stylesheet" href="stylesheets/foundation.css">
-    -->
-
-    <!-- Included CSS Files (Compressed) -->
-    <link rel="stylesheet" href="stylesheets/foundation.min.css">
-    <link rel="stylesheet" href="stylesheets/app.css">
-
-    <script src="javascripts/modernizr.foundation.js"></script>
-
-    <!-- Included JS Files (Compressed) -->
-    <script src="javascripts/jquery.js"></script>
-    <script src="javascripts/foundation.min.js"></script>
-
-    <!-- Initialize JS Plugins -->
-    <script src="javascripts/app.js"></script>
-
-    <script src="javascripts/jquery.foundation.clearing.js"></script>
-
-
-    <!-- IE Fix for HTML5 Tags -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
+    <title>{{ page.title }}</title>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
   </head>
   <body>
-    <div id="wrap">
-      <div id="main">
-        <div class="row">
-          <div class="six columns offset-by-six">
-            <img src="/images/logo.png" />
-          </div>
-        </div>
-
-        <div class="navigation">
-          <div class="row">
-            <div class="twelve columns">
-              <ul class="nav-bar">
-                <li><a href="/">Home</a></li>
-                <li><a href="countertops.html">Countertops</a></li>
-                <li><a href="cabinetry.html">Cabinetry</a></li>
-                <li><a href="projects.html">Past Projects</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="eight columns">
-            <div class="content-wrapper">
-              <div class="content">
-                {{ content }}
-              </div>
-            </div>
-          </div>
-          <div class="four columns">
-            <div class="sidebar-box-wrap">
-              <div class="sidebar-box">
-                <span class="sidebar-box-title">Contact Us</span>
-                <h4 class="subheader">Address</h4>
-                505 West Jefferson St.<br />
-                Plymouth, IN 46563<br />
-                <h4 class="subheader">Phone / Fax</h4>
-                Phone: (574) 936-1423<br />
-                Fax: (574) 936-9575
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="footer">
-      <div id="footer-inside">
-        &nbsp;
-      </div>
-    </div>
-
-    <!-- Included JS Files (Uncompressed) -->
-    <!--
-
-    <script src="javascripts/jquery.js"></script>
-
-    <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
-
-    <script src="javascripts/jquery.foundation.forms.js"></script>
-
-    <script src="javascripts/jquery.foundation.reveal.js"></script>
-
-    <script src="javascripts/jquery.foundation.orbit.js"></script>
-
-    <script src="javascripts/jquery.foundation.navigation.js"></script>
-
-    <script src="javascripts/jquery.foundation.buttons.js"></script>
-
-    <script src="javascripts/jquery.foundation.tabs.js"></script>
-
-    <script src="javascripts/jquery.foundation.tooltips.js"></script>
-
-    <script src="javascripts/jquery.foundation.accordion.js"></script>
-
-    <script src="javascripts/jquery.placeholder.js"></script>
-
-    <script src="javascripts/jquery.foundation.alerts.js"></script>
-
-    <script src="javascripts/jquery.foundation.topbar.js"></script>
-
-    <script src="javascripts/jquery.foundation.joyride.js"></script>
-
-    <script src="javascripts/jquery.foundation.magellan.js"></script>
-
-    -->
+    {{ content }}
   </body>
 </html>
