@@ -1,5 +1,6 @@
 ---
 layout: default
-title: "Ermahgherd! Fer Saleeeee!!!1111!!"
+title: "Blank"
 ---
-![Ya know you wanna!](/images/forsale.gif)
+
+![Intentionally left blank](/images/blank.gif)
