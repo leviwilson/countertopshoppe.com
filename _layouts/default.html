@@ -1,6 +1,8 @@
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>Randomness</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="/javascripts/app.js"></script>
     <style>
         img {
             display: block;
@@ -9,7 +11,7 @@
         }
     </style>
   </head>
-  <body>
+  <body data-ng-app="app" data-ng-controller="Main">
     {{ content }}
   </body>
 </html>
